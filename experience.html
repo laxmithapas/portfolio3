@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Experience - John Doe | Computer Science Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Back to Home -->
+    <div style="text-align: left; padding: 20px; background-color: #f8f9fa; margin-left: 20px;">
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-container">
+                <div class="experience-card fade-in">
+                    <div class="experience-date">2023 - Present</div>
+                    <h3>Software Engineering Intern</h3>
+                    <p>Tech Company Inc.</p>
+                    <p>Developed backend services using Python and Django, collaborated on API design, and improved application performance by 20%.</p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-date">2022 - 2023</div>
+                    <h3>Web Development Intern</h3>
+                    <p>Startup XYZ</p>
+                    <p>Built responsive web applications using React and Node.js, implemented user authentication, and worked on database optimization.</p>
+                </div>
+                <div class="experience-card fade-in">
+                    <div class="experience-date">2021 - 2022</div>
+                    <h3>Freelance Developer</h3>
+                    <p>Self-Employed</p>
+                    <p>Developed custom websites and applications for small businesses, focusing on user experience and clean code practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeIns = document.querySelectorAll('.fade-in');
+            fadeIns.forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>

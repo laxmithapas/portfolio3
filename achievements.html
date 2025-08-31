@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Achievements - John Doe | Computer Science Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Back to Home -->
+    <div style="text-align: left; padding: 20px; background-color: #f8f9fa; margin-left: 20px;">
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="certifications-container">
+                <div class="cert-card fade-in">
+                    <div class="cert-org">AWS Certified Developer</div>
+                    <h3>Associate Level</h3>
+                    <p>Amazon Web Services</p>
+                    <div class="cert-date">2023</div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-org">Google Cloud Professional</div>
+                    <h3>Cloud Architect</h3>
+                    <p>Google Cloud</p>
+                    <div class="cert-date">2022</div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-org">Hackathon Winner</div>
+                    <h3>1st Place</h3>
+                    <p>Tech University Hackfest</p>
+                    <div class="cert-date">2023</div>
+                </div>
+                <div class="cert-card fade-in">
+                    <div class="cert-org">Open Source Contributor</div>
+                    <h3>Top Contributor</h3>
+                    <p>GitHub</p>
+                    <div class="cert-date">2022</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeIns = document.querySelectorAll('.fade-in');
+            fadeIns.forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>

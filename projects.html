@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects - John Doe | Computer Science Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Back to Home -->
+    <div style="text-align: left; padding: 20px; background-color: #f8f9fa; margin-left: 20px;">
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="https://placehold.co/600x400/3498db/FFFFFF?text=Project+1" alt="Project 1" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project One</h3>
+                        <p>A web application for task management with real-time collaboration features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="https://placehold.co/600x400/2ecc71/FFFFFF?text=Project+2" alt="Project 2" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Two</h3>
+                        <p>An e-commerce platform with integrated payment gateway and user analytics dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <img src="https://placehold.co/600x400/e67e22/FFFFFF?text=Project+3" alt="Project 3" />
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Three</h3>
+                        <p>A mobile app for fitness tracking with personalized workout plans and progress reports.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-outline" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeIns = document.querySelectorAll('.fade-in');
+            fadeIns.forEach(el => el.classList.add('visible'));
+        });
+    </script>
+</body>
+</html>
